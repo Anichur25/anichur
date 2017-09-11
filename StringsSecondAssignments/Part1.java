@@ -62,7 +62,7 @@ public class Part1
     }
     public void test() {
         testOn("ATGATCTAATTTATGCTGCAACGGTGAAGA");
-        testOn("");
+        testOn("ATG");
         testOn("ATGATCATAAGAAGATAATAGAGGGCCATGTAA");
     }
 }
