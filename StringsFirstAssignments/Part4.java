@@ -14,7 +14,9 @@ public class Part4
             
             if(x != -1)
             {
-               
+               int startIndex = word.indexOf("/");
+               int endIndex = word.lastIndexOf("/",l);
+               System.out.println(word.substring(startIndex,endIndex));
             } 
         }
     }
