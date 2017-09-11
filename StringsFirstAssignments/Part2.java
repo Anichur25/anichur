@@ -24,12 +24,30 @@ public class Part2
     
     public void testgene()
     {
-        String dna = "ATGCCTAAATGTAAATTAA";
+        String dna = "ATGGGTTAAGTC";
         String startCodon = "ATG";
         String stopCodon = "TAA";
+        Character ch = dna.charAt(0);
+        
+        if(ch.isLowerCase(ch) == true)
+        {
+            startCodon = startCodon.toLowerCase();
+            stopCodon = stopCodon.toLowerCase();
+        }
+          
+          
         String gene = findSimpleGene(dna,startCodon,stopCodon);
         System.out.println("DNA Strand: " + dna + "\nGene: " + gene );
-        dna = "ATGTAA";
+        
+        dna = "gatgctataat";
+        ch = dna.charAt(0);
+        
+        if(ch.isLowerCase(ch) == true)
+        {
+            startCodon = startCodon.toLowerCase();
+            stopCodon = stopCodon.toLowerCase();
+        }
+          
         gene = findSimpleGene(dna,startCodon,stopCodon);
         System.out.println("DNA Strand: " + dna + "\nGene: " + gene );
         
