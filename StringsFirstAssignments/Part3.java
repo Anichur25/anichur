@@ -41,5 +41,31 @@ public class Part3
         return answer;
     }
     
-    
+    public void testing()
+    {
+        String a = "bby";
+        String b = "A story by Abby Long";
+        System.out.println( twoOccurrences(a,b) );
+        
+        a = "by";
+        b = "A story by Abby Long";
+        System.out.println( twoOccurrences(a,b) );
+        
+        a = "an";
+        b = "banana";
+        
+        System.out.println(lastPart(a,b));
+        
+        a = "zoo";
+        b = "forest";
+        
+        System.out.println(lastPart(a,b));
+        
+        a = "anis";
+        b = "anisur";
+        
+        System.out.println(lastPart(a,b));
+        
+        
+    }
 }
