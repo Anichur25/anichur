@@ -25,5 +25,16 @@ public class Part3
         return result;
     }
     
-    
+    public void testing()
+    {
+        String a = "bby";
+        String b = "A story by Abby Long";
+        System.out.println( twoOccurrences(a,b) );
+        
+        a = "by";
+        b = "A story by Abby Long";
+        System.out.println( twoOccurrences(a,b) );
+        
+        
+    }
 }

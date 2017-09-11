@@ -2,4 +2,6 @@
 comment0.target=Part3
 comment1.params=stringa\ stringb
 comment1.target=boolean\ twoOccurrences(java.lang.String,\ java.lang.String)
-numComments=2
+comment2.params=
+comment2.target=void\ testing()
+numComments=3
