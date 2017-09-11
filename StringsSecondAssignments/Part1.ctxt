@@ -8,6 +8,4 @@ comment3.params=dna
 comment3.target=void\ printAllGenes(java.lang.String)
 comment4.params=dna
 comment4.target=void\ testOn(java.lang.String)
-comment5.params=
-comment5.target=void\ test()
-numComments=6
+numComments=5

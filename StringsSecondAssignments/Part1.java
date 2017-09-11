@@ -60,10 +60,6 @@ public class Part1
         System.out.println("Testing printAllGenes on " + dna);
         printAllGenes(dna);
     }
-    public void test() {
-        testOn("ATGATCTAATTTATGCTGCAACGGTGAAGA");
-        testOn("ATG");
-        testOn("ATGATCATAAGAAGATAATAGAGGGCCATGTAA");
-    }
+    
 }
 
