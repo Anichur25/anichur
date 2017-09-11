@@ -25,16 +25,21 @@ public class Part3
         return result;
     }
     
-    public void testing()
+    public String lastPart(String stringa,String stringb)
     {
-        String a = "bby";
-        String b = "A story by Abby Long";
-        System.out.println( twoOccurrences(a,b) );
+        int first_string_len = stringa.length();
+        int second_string_len = stringb.length();
         
-        a = "by";
-        b = "A story by Abby Long";
-        System.out.println( twoOccurrences(a,b) );
+        String answer = stringb;
         
+        int firstOccurance = stringb.indexOf(stringa);
         
+        if(firstOccurance != -1){
+           answer = stringb.substring(firstOccurance + first_string_len , second_string_len);
+        }
+        
+        return answer;
     }
+    
+    
 }
