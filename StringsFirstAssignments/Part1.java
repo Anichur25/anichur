@@ -21,4 +21,19 @@ public class Part1
         return result;
         
     }
+    
+    public void testSimpleGene()
+    {
+        String dna = "ATGGGTTAAGTC";
+        
+        String gene = findSimpleGene(dna);
+        System.out.println("DNA Strand: " + dna + "\nGene: " + gene );
+        dna = "GATGCTATAAT"; 
+        gene = findSimpleGene(dna);
+        System.out.println("DNA Strand: " + dna + "\nGene: " + gene );
+        dna = "AATTG";
+        gene = findSimpleGene(dna);
+        System.out.println("DNA Strand: " + dna + "\nGene: " + gene );
+        
+    }
 }
